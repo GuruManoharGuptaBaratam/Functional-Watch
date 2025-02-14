@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(13deg, rgba(2,0,36,1) 0%, rgba(2,9,85,1) 25%, rgba(3,63,129,1) 47%, rgba(3,69,139,1) 65%, rgba(25,119,195,1) 94%, rgba(2,160,233,1) 100%, rgba(0,212,255,1) 100%);
+    text-align: centre;
+    display: flex;
+    align-items: center;
+    
+}
+
+#main_content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch_background{
+    
+    padding: 7rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1rem solid black;
+    outline: 1rem solid rgba(5, 1, 17, 0.279);
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 10px 10px 20px 10px;
+}
+.presentime{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.307);
+    border-radius: 5rem;
+    transition-duration: 1s ;
+}
+.presentime h1:nth-child(2){
+    font-family: "Quantico", serif;
+}
+.presentime:hover{
+    box-shadow: 0px 5px 20px 10px;
+}
+#stopwatch{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.307);
+    border-radius: 5rem;
+    transition-duration: 1s;
+    
+}
+#stopwatch h1:nth-child(2){
+    font-family: "Quantico", serif;
+}
+#stopwatch:hover{
+    box-shadow: 0px 5px 20px 10px;
+}
+.buttons{
+column-gap: 2rem;
+}
+.button1{
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.button1:hover{
+    background:  rgba(40, 36, 36, 0.1);
+}
+.button2{
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.button2:hover{
+    background:  rgba(40, 36, 36, 0.1);
+}
+.button3{
+    background: transparent;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    color: darkred;
+    font-weight: bold;
+
+}
+.button3:hover{
+    background:  rgba(40, 36, 36, 0.1);
+}

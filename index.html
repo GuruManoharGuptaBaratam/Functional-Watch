@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+        
+</head>
+<body>
+    <div id="main_content">
+        <div class="watch_background">
+            <div class="presentime" >
+                <h1>Present Time</h1>
+                <h1 id="p_time_h1">00:00:00</h1>
+             </div>
+            <br>
+            <div id="stopwatch">
+                <h1>Stop watch</h1>
+
+                <h1 id="s_time_h1">00:00:00</h1>
+            </div>
+            <br>
+            <div class="buttons">
+                <button class="button1" onclick="startfunction()">Start</button>
+                <button class="button2" onclick="stopfunction()">Stop</button>
+                <button class="button3" onclick="resetfunction()">Reset</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
